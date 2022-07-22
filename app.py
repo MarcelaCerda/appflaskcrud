@@ -56,7 +56,7 @@ producto_schema=ProductoSchema()            # para crear un producto
 productos_schema=ProductoSchema(many=True)  # multiples registros
  
 # programo los mapeos, o las rutas, los endpoint, la URL
-@app.route('/',methods=['GET'])
+@app.route('/')
 def index():
     return "<h1>Corriendo servidor FLASK </h1>"
 
